@@ -1,0 +1,91 @@
+.bk{
+    position: sticky;
+    top:0px;
+    z-index: 3;}
+
+.hd{
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    /* background-color: #55680D; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:lavender;
+    font-size: 30px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-family:'Josefin Sans';}
+        body{
+            margin: 0px;
+                margin: 0px;
+                background: linear-gradient(rgba(146, 68, 218, 0.37),rgba(0, 128, 0, 0.375)) ,url('i-love-you-with-hearts-6a8kxhza7a91xzj5.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                min-width: 650px;
+            
+        }
+        
+        nav{
+            background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            
+        }
+        nav:hover
+        {  
+            
+        background: linear-gradient(rgba(255, 0, 0, 0.274), rgba(0, 0, 255, 0.312),rgba(0, 128, 0, 0.274));
+        }
+        .dv{
+            display: inline-block;
+            background: linear-gradient(#55680D, #71F53E, #3ac76b);
+            font-size: 20px;
+            text-align: center;
+            margin: 0 auto;
+            width: 225px;
+            transition: all 2s;
+            /* margin-right: 120px; */
+            color: rgb(123, 163, 13);
+        }
+        .dv:hover{
+            transform: skew(180deg);
+            background: linear-gradient(green,rgb(195, 147, 37),green);
+        }
+        
+        a{
+            color:rgb(7, 9, 114);
+            text-decoration: none;
+        }
+        a:hover{
+           
+            color: aquamarine;
+        }
+        .hd:hover{
+            /* height: 100vh; */
+            background: linear-gradient(rgb(193, 57, 193),rgb(54, 54, 189),rgb(154, 27, 154));
+        }
+.mn{
+    text-align: center;
+    width: 60vw;
+    
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.399);
+}
+.mn h1{
+    color: #3c052f;
+}
+p{
+    background: linear-gradient(rgba(174, 148, 33, 0.347),rgba(8, 39, 67, 0.44),rgba(8, 90, 33, 0.188));
+    text-align: left;
+    /* width: 90%; */
+    margin: auto;
+}
+p:hover{
+    background: linear-gradient(rgba(174, 148, 33, 0.586),rgba(8, 39, 67, 0.542),rgba(8, 90, 33, 0.548));
+
+}
