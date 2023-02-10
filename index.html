@@ -19,14 +19,14 @@
             
             background: linear-gradient(rgba(0, 0, 255, 0.132),rgba(0, 128, 0, 0.11),rgba(255, 255, 0, 0.104)), url();
             background-size:cover;
-            /* background-attachment: fixed; */
+            background-attachment: fixed;
             
         }
         .hd{
-            height: 20vh;
+            height: 10vh;
             font-size: 50px;
             font-style: italic;
-            animation: wr 8s 0s;
+            /* animation: wr 8s 0s; */
         }
         @keyframes wr {
         from{ top: 0;
@@ -54,7 +54,7 @@
             /* background-image: url('https://cdn.quotesgram.com/img/94/64/306059134-il_570xN_770659583_lpmu.jpg');
             background-size: cover; */
             min-width: 100vw;
-            min-height: 150vh;
+            min-height: 80vh;
             font-size: 50px;
             justify-content: center;
         align-items: center;
@@ -67,7 +67,7 @@
             /* background-image: url('https://cdn.quotesgram.com/img/94/64/306059134-il_570xN_770659583_lpmu.jpg');
             background-size: cover; */
             min-width: 100vw;
-            min-height: 150vh;
+            min-height: 80vh;
             font-size: 50px;
             justify-content: center;
         align-items: center;
@@ -101,10 +101,30 @@
             min-width: 650px;
         }
         .mi{
-            background: url('https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0NDY4NTk0NjQwMzY1MTkw/alternative-ways-to-say-i-love-you.png');
+            display: grid;
+            
+            background-image: url('https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0NDY4NTk0NjQwMzY1MTkw/alternative-ways-to-say-i-love-you.png');
             background-size: cover;
             background-attachment: fixed;
+            animation: us 7.5s;
+            /* transition: background-color 14s; */
         }
+        @keyframes us {
+            from{
+                background-color: beige;
+                visibility: hidden;
+                z-index: 2;}
+             100%   
+                {background-color: beige;
+                visibility: hidden;
+                z-index: 2;
+            }
+        
+        }
+        .im{
+            padding: 20px;
+        }
+
         .im h1{
             background-color: rgba(137, 43, 226, 0.693);
         }
@@ -118,25 +138,29 @@
 }
 
         
-        .im p{
+        .desc{
             transition: all 3s;
+            
         }
-        .im p:hover{
-            height: 200px;
-             
+        .desc:hover{
+            height: 300px;
+            marg
         }
         .im{
-            margin: 10px;
+           
             transition: all 3s;
         }
         .im:hover{
-            margin-bottom: 10px;
-        }}
+            margin-bottom: 120px;
+        }
+    form{
+        margin: 20px;
+    }}
       </style>
 </head>
 <body>
    <div class="bk">
-    <header class="hd"><a href="index.html">Welcome to LOVESITE</a></header>
+    <header class="hd"><a href="index.html">Welcome to LOSITE</a></header>
     <nav>
         <div class="dv" id="d1"><a href="start.html" target="_blank"> How it all started</a></div>
         <div class="dv" id="d2"><a href="dates.html" target="_blank">Important Dates and Events</a></div>
@@ -150,11 +174,13 @@
             <h1 >
             For you<br>My love Tin
         </h1>
-    <p class="desc">
+    <div class="desc">
+        <h2> Secret Message</h2>
         I made this website for you my love, Tin. This is like a way for me of thanking you for being a part of my life. We were not talking much in the past few days as I was busy creating this website and didn’t told you as I wanted to give you a surprise. I was thinking to launch this website on February 14, i.e. the Valentine’s day, but it would give a wrong message that I think about loving you on just one day.
         We’re not like other couples, who just have one day to celebrate love. We have love everyday even though we don’t talk, as we don’t need to show our love for each other and I hope it will never be less.
-        When I had no one with whom I can share everything to, you came to my life, and my life is like never before. Now, I became so close to you that my day doesn’t get completed without you. 
-            </p></div>
+        When I had no one with whom I can share everything to, you came to my life, and my life is like never before. Now, I became so close to you that my day doesn’t get completed without you. <br>
+        <h4>So, I just want to say I Love You Baby</h4>
+    </div></div>
     <div class="form"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrDNUurFLxYFHkmkg8Zpc3UEHpjgzRu5KXZzWhOW1Sw7ALFQ/viewform?embedded=true" width="640" height="975" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
     
     <footer>
